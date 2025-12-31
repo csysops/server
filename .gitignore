@@ -1,0 +1,48 @@
+####################
+# macOS
+####################
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Spotlight
+.Spotlight-V100
+.Trashes
+
+####################
+# C / C++ build files
+####################
+# Executables
+a.out
+*.out
+*.exe
+
+# Object files
+*.o
+
+# Static & shared libraries
+*.a
+*.so
+*.dylib
+
+# Debug files
+*.dSYM/
+
+####################
+# Build directories
+####################
+build/
+bin/
+dist/
+
+####################
+# Editor / IDE files
+####################
+.vscode/
+.idea/
