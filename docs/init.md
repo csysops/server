@@ -7,8 +7,9 @@
 - is abstraction, an illusion communicating through network same as operating on file, `send/receive` == `write/read`,
 - include (src `ip/port` && des `ip/port`) infor, one `socket` -> one `port`,
 - one `port` <- many `socket`, obviously because single port `80` allow trillions connections, so there would be one socket each connection for port `80`, differ only in `des` infor
-- analogy: Similar to power strip, one wall outlet (port) supports multiple electrical devices (sockets). 
+- analogy: power strip, one wall outlet (port) supports multiple electrical devices (sockets). 
 - 
+
 
 
 
