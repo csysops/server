@@ -3,7 +3,8 @@
 - you want to order something, go to `ip`, look for right `port`, you order `/food`, order `/drink` => `ip:port/food` || `ip:port/drink`
 - `ip` tell which machine, `port` tell which program on that machine serving you, single program serving multiple services
 ### Networking
-- `socket` is abstraction, illusion communicating through network is the same as operate on file, `send/receive` == `write/read`
+- `socket` is abstraction, an illusion communicating through network same as operating on file, `send/receive` == `write/read`
+
 
 
 
