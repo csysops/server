@@ -2,6 +2,9 @@
 - you want to order something, go to `mall`, look for right `store`, you order `food`, order `drink` => `mall:store/food` || `mall:store/drink`
 - you want to order something, go to `ip`, look for right `port`, you order `/food`, order `/drink` => `ip:port/food` || `ip:port/drink`
 - `ip` tell which machine, `port` tell which program on that machine serving you, single program serving multiple services
+### Networking
+- `socket` is abstraction, illusion communicating through network is the same as operate on file, `send/receive` == `write/read      `
+
 
 
 
