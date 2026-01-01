@@ -3,8 +3,9 @@
 - you want to order something, go to `ip`, look for right `port`, you order `/food`, order `/drink` => `ip:port/food` || `ip:port/drink`
 - `ip` tell which machine, `port` tell which program on that machine serving you, single program serving multiple services
 ### Networking
-- `socket` is abstraction, an illusion communicating through network same as operating on file, `send/receive` == `write/read`, include [`ip`, `port`] information, one `socket` map to one `port`, one port can have multiple `socket` point to, obviously because single port `80` allow trillion connections, so there would be one socket each connection on port `80`, the only difference is client information
+- `socket` is abstraction, an illusion communicating through network same as operating on file, `send/receive` == `write/read`, include [`ip`, `port`] information of both `client` && `server`, one `socket` map to one `port`, one port can have multiple `socket` point to, obviously because single port `80` allow trillion connections, so there would be one socket each connection on port `80`, the only difference is client information
 - 
+
 
 
 
